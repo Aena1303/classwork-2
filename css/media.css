@@ -1,0 +1,26 @@
+@media screen and (max-width: 768.98px) {
+  .mobile-btn {
+    display: flex;
+  }
+  .header__nav .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    background-color: coral;
+    border-bottom-left-radius: 100px;
+    z-index: 2;
+  }
+
+  .header__nav .show-nav {
+    right: 0;
+    transition: 0.3s ease;
+  }
+}
